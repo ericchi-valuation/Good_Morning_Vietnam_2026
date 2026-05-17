@@ -10,9 +10,9 @@ FEED_FILE = "feed.xml"
 # Podcast Metadata
 PODCAST_NAME = "越南晨間快訊 Good Morning Vietnam"
 PODCAST_DESC = "專為在越南生活的台商、華人與中文商務人士打造的每日重點新聞播報。AI 全自動產製，為您掌握越南產經、外資動態與在地生活情報。"
-PODCAST_WEBSITE = "https://github.com/ericchi-valuation"
+PODCAST_WEBSITE = "https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026"
 PODCAST_EXPLICIT = False
-PODCAST_IMAGE_URL = "https://raw.githubusercontent.com/ericchi-valuation/Vietnam-Daily-Insider/main/cover.jpg"
+PODCAST_IMAGE_URL = "https://raw.githubusercontent.com/ericchi-valuation/Good_Morning_Vietnam_2026/main/cover.JPG"
 AUTHOR_NAME = "Eric Chi"
 AUTHOR_EMAIL = "eric.chi1988@gmail.com"  
 
