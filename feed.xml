@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 22 May 2026 00:13:35 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 00:16:34 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Fri, 22 May 2026 07:13:32 +0700</pubDate>
+    <pubDate>Sat, 23 May 2026 07:16:31 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -75,6 +75,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-05-22/VietnamDaily_Podcast_Final.mp3" length="14020901" type="audio/mpeg"/>
       <itunes:duration>09:44</itunes:duration>
       <pubDate>Fri, 22 May 2026 07:13:32 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-05-23</title>
+      <description><![CDATA[本集『越南晨間快訊』聚焦越南國家銀行對利率的嚴格監管，以及兩家大型外資電子與醫療製造廠在越南動工。我們也深入探討了越南政府積極邀請亞馬遜投資AI技術的戰略意圖，以及下週可能出現的電力供應緊張與政府推動屋頂太陽能的政策。活動方面，胡志明市將舉辦『越南兒童繪本節』。社群熱議則圍繞移工匯款痛點與新住民的創業故事。請收聽本集節目，掌握越南最新商機與生活資訊。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-05-23/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-05-23/VietnamDaily_Podcast_Final.mp3" length="11279925" type="audio/mpeg"/>
+      <itunes:duration>07:49</itunes:duration>
+      <pubDate>Sat, 23 May 2026 07:16:31 +0700</pubDate>
     </item>
   </channel>
 </rss>
