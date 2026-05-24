@@ -8,3 +8,8 @@ pydub
 audioop-lts
 podgen
 pytz
+soundfile
+numpy
+
+# ── TTS Option 3: Kokoro (free, CPU-friendly, GitHub Actions compatible) ─────
+kokoro>=0.9.4
