@@ -181,7 +181,7 @@ def generate_podcast_script(news_data, social_data, weather_data=None, exchange_
         sources_text += "今日天氣資料無法取得。\n"
 
     if exchange_data and exchange_data.get('usd_vnd'):
-        sources_text += "\n\n[💱 今日匯率動態]\n"
+        sources_text += "\n\n[💱 最新收盤匯率動態 (非即時)]\n"
         sources_text += f"高波動: {'是' if exchange_data.get('high_volatility') else '否'}\n"
         sources_text += exchange_data.get('summary', '') + "\n"
 
@@ -231,6 +231,8 @@ def generate_podcast_script(news_data, social_data, weather_data=None, exchange_
 
     ### MANDATORY SECTION — SMART CURRENCY CORNER ###
     You MUST include a dedicated "財經匯率報導" (Currency Report) segment in EVERY single broadcast.
+    - CRITICAL TIMING CONTEXT: The exchange rates provided reflect the MOST RECENTLY SETTLED trading day's closing rates, NOT live real-time rates.
+    - When announcing rates, always frame it accurately in Chinese, e.g.: "截至上一個交易日收盤..." or "根據最新收盤匯率...". NEVER say "今天的匯率是" or "目前的即時匯率" because they are not live.
     - Report the exact USD/VND, CNY/VND, and TWD/VND exchange rates provided in the source materials.
     - If the rates are not provided, simply mention that the data is unavailable today. DO NOT invent numbers.
     - SMART LOGIC (STRICTLY ENFORCED):
