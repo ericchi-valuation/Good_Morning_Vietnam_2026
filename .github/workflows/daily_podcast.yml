@@ -19,7 +19,7 @@ jobs:
       - name: 🐍 設定 Python 執行環境
         uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
+          python-version: '3.12'
           
       - name: ⚙️ Setup ffmpeg
         uses: FedericoCarboni/setup-ffmpeg@v3
