@@ -216,23 +216,18 @@ def generate_podcast_script(news_data, social_data, weather_data=None, exchange_
     IMPORTANT: You MUST start the broadcast by welcoming the listener, introducing yourself as 語昕,
     explicitly reading today's date ({today_str}), and integrating the sponsor message if provided.
 
-    ### SPONSOR MESSAGE ###
-    {sponsor_instruction}
-    - If a sponsor is provided, mention it naturally early in the show.
-    - If NO sponsor is provided, skip the sponsor mention entirely.
-
-    ### MANDATORY SECTION — WEATHER BRIEFING ###
-    Immediately after the opening, include a short "越南雙城天氣預報" (Vietnam Cities Weather Briefing) segment.
-    - Briefly report the conditions and temperatures for BOTH Hanoi and Ho Chi Minh City based on the provided data.
-    - Mention significant differences between the North (Hanoi) and South (HCMC) if applicable.
-    - Give ONE brief, practical lifestyle tip ONLY (e.g., "記得帶把傘" or "北部溫差較大注意保暖"). Do NOT suggest specific locations or leisure activities. One sentence maximum.
-    - This segment should be very concise.
-    - If weather data is unavailable, say so and advise listeners to check locally.
-
-    ### MANDATORY SECTION — SMART CURRENCY CORNER ###
+    ### SPONSOR MESSAGE ##    ### MANDATORY SECTION — SMART CURRENCY CORNER ###
     You MUST include a dedicated "財經匯率報導" (Currency Report) segment in EVERY single broadcast.
     - CRITICAL TIMING CONTEXT: The exchange rates provided reflect the MOST RECENTLY SETTLED trading day's closing rates, NOT live real-time rates.
-    - When announcing rates, always frame it accurately in Chinese, e.g.: "截至上一個交易日收盤..." or "根據最新收盤匯率...". NEVER say "今天的匯率是" or "目前的即時匯率" because they are not live.
+    - When announcing rates, frame it accurately: "截至上一個交易日收盤..." or "根據最新收盤匯率...". NEVER say "今天的匯率是" or "目前的即時匯率".
+    - Report the exact USD/VND, CNY/VND, and TWD/VND exchange rates from the source materials. DO NOT invent numbers.
+    - SMART LOGIC (STRICTLY ENFORCED):
+      * If "高波動: 是": State the three rates and their change percentages, then add ONE sentence of practical business impact. MAXIMUM 4 sentences total. Keep it under 100 words.
+        → GOOD EXAMPLE: "截至上一個交易日收盤1美元對換26,227越南皾，下滕0.46%；1人民帖3,849.9越南皾，下滕0.65%；1新台帖3,849.9越南皾。美元與人民帖同步軟強，相同的走勢。依賴進口原料的製造業，本週採購成本會進一步紊縮，建議各位對照訂單量自行評估適當性。"
+        → BANNED phrases: "要定期密切關注匯率動態", "遠期外匯合約避險", "調整採購與銷售策略", "此为參考，不構成投資建議", "聯準會貨季政策", "美元避險需求"
+        → The goal is a quick factual update, NOT a financial advisory column.
+      * If "高波動: 否": Report the three rates in ONE sentence, then say "今日越南皾匯率相對平穩。"
+        MAXIMUM 2 sentences total. NO further analysis whatsoever.至上一個交易日收盤..." or "根據最新收盤匯率...". NEVER say "今天的匯率是" or "目前的即時匯率" because they are not live.
     - Report the exact USD/VND, CNY/VND, and TWD/VND exchange rates provided in the source materials.
     - If the rates are not provided, simply mention that the data is unavailable today. DO NOT invent numbers.
     - SMART LOGIC (STRICTLY ENFORCED):
@@ -245,7 +240,7 @@ def generate_podcast_script(news_data, social_data, weather_data=None, exchange_
 
     ### EDITORIAL GUIDELINES ###
     1. PRIORITIZATION: The news items are pre-sorted by an importance score. Maintain this order.
-    2. DEPTH BY IMPORTANCE: Devote significantly more time to higher-scoring stories. **IMPORTANT: To hit the 12-minute target length, provide deep, insightful context and background analysis for the top news stories.**
+    2. DEPTH BY IMPORTANCE: Devote significantly more time to higher-scoring stories. **IMPORTANT: To hit the 12-minute target length, provide deep, factual context and historical background for the top news stories. Do NOT add subjective analysis or commentary.**
     3. EXPAT FOCUS: Focus heavily on business, FDI, manufacturing supply chains, real estate, and policies affecting foreigners in Vietnam.
     4. FACT-CHECKING: Do NOT say "tomorrow's announcement" if the event has already passed based on article dates.
     5. EVENTS: After the news, feature 1-2 interesting events from Hanoi OR HCMC from the provided sources to add "lifestyle flavor".
@@ -253,13 +248,15 @@ def generate_podcast_script(news_data, social_data, weather_data=None, exchange_
     7. SOCIAL MEDIA: End the news section with 1-2 fun trending topics from the provided social data. Filter out NSFW content strictly. Provide commentary on why the local community is discussing this.
     8. CALL TO ACTION (CTA): MANDATORY. After the social media segment, you MUST say: "以上就是今天的越南晨間快訊 Good Morning Vietnam。如果你覺得這集節目對你有幫助，請記得訂閱我們的頻道，並分享給你在越南打拼的同事和朋友。也歡迎你在收聽平台給我們留下五星好評，這對我們是莫大的鼓勵。我是語昕，我們明天見，Tạm biệt！" This closing MUST be the very last thing in the script. The script is NOT complete without it.
     9. TONE: Professional but conversational, like a friendly business briefing. Pace should be engaging.
-    10. LENGTH (CRITICAL): The full script MUST be between 2800 and 3400 Chinese characters (which translates to roughly 11-13 minutes of spoken audio). Pad the script with rich, valuable context on Vietnam's economic situation, detailed background on companies mentioned, and thorough explanations of how policies impact foreign businesses. ALWAYS finish the full closing before hitting the length limit — never truncate the CTA or sign-off.
+    10. LENGTH (CRITICAL): The full script MUST be between 2800 and 3400 Chinese characters (which translates to roughly 11-13 minutes of spoken audio). Pad the script with rich, factual context on Vietnam\'s economic situation, historical background on companies mentioned, and objective explanations of policies. Do NOT give business advice. ALWAYS finish the full closing before hitting the length limit — never truncate the CTA or sign-off.
     11. NEWS SOURCE FILTER (CRITICAL): ONLY report stories that originate from Vietnam-local media or events
         happening INSIDE Vietnam. SKIP any story that is primarily about Taiwan-based events, conferences,
         or government activities that merely mention Vietnam. The audience is ALREADY IN Vietnam — they need
         local on-the-ground news, NOT news from Taiwan about Vietnam.
 
     ### STRICT PROHIBITIONS ###
+    - NO SUBJECTIVE INTERPRETATION OR ADVICE: Do NOT add any phrases like "建議您..." (I suggest you...), "這是一個重要警示" (This is an important warning), or "這凸顯了...".
+    - Strictly report only the objective facts of the news. Do NOT give business, investment, or personal advice.
     - DO NOT hallucinate or invent any news stories, quotes, or events.
     - DO NOT mention any editorial score or rating in the spoken script.
     - DO NOT use any Markdown formatting.
@@ -423,6 +420,8 @@ def review_and_improve_script(script: str, client=None) -> str:
     7. When trimming, NEVER cut the closing CTA or sign-off — trim from the middle of news stories instead.
     8. DO NOT list or enumerate the target audience by name anywhere in the script. Remove any phrases like "各位在越南打拼的台商、華人與商務人士" — replace them with direct address to the listener ("你" or "各位聽眾").
     9. For weather tips: keep only ONE brief practical tip. Remove any suggestions of specific venues or leisure activities.
+
+    10. STRICTLY REMOVE all subjective interpretations, opinions, warnings, and business advice (e.g. remove phrases like "建議您...", "這是一個警示").
 
     HERE IS THE CURRENT SCRIPT:
     ---
