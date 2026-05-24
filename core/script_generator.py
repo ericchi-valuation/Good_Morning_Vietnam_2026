@@ -10,6 +10,30 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+def diagnostic_list_models(client):
+    """
+    [自動診斷工具] 查詢這把 API Key 到底可以使用哪些模型
+    """
+    print("\n🔍 [系統診斷] 正在向 Google 查詢此 API Key 可用的模型清單...")
+    try:
+        models = client.models.list()
+        available_models = []
+        for m in models:
+            if 'generateContent' in m.supported_actions:
+                clean_name = m.name.replace('models/', '')
+                available_models.append(clean_name)
+        
+        if available_models:
+            print(f"✅ 您的 API Key 支援以下 {len(available_models)} 個模型：")
+            print(", ".join(available_models))
+        else:
+            print("❌ 警告：您的 API Key 無法存取任何文字生成模型！這通常是因為帳號權限或地區限制。")
+            
+    except Exception as e:
+        print(f"❌ 查詢模型清單失敗，您的金鑰或連線被阻擋: {e}")
+    print("-" * 50 + "\n")
+
+
 def score_and_sort_articles(client, news_data):
     """
     使用 Gemini 模型為新聞評分 (1-10)，依對在越華人/台商的重要性排序。
@@ -64,7 +88,7 @@ def score_and_sort_articles(client, news_data):
         }
     }
 
-    models_to_try = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-2.5-pro']
+    models_to_try = ['gemini-2.5-flash', 'gemini-3.5-flash', 'gemini-2.5-pro', 'gemini-2.5-flash-lite']
     response = None
     
     for model_name in models_to_try:
@@ -126,6 +150,8 @@ def generate_podcast_script(news_data, social_data, weather_data=None, exchange_
 
     client = genai.Client(api_key=api_key)
 
+    diagnostic_list_models(client)
+
     if not news_data and not social_data:
         print("⚠️ 警告：沒有收集到任何新聞或社群資料，跳過 AI 生成。")
         return None
@@ -159,7 +185,7 @@ def generate_podcast_script(news_data, social_data, weather_data=None, exchange_
         sources_text += f"高波動: {'是' if exchange_data.get('high_volatility') else '否'}\n"
         sources_text += exchange_data.get('summary', '') + "\n"
 
-    sources_text += "\n\n[💬 越南台商與華人社群熱議]\n"
+    sources_text += "\n\n[💬 越南當地社群熱議 (Reddit / 越南新聞)]\n"
     for post in social_data:
         title = post.get('title', '未知主題')
         topics = post.get('topics', [])
@@ -217,19 +243,18 @@ def generate_podcast_script(news_data, social_data, weather_data=None, exchange_
 
     ### EDITORIAL GUIDELINES ###
     1. PRIORITIZATION: The news items are pre-sorted by an importance score. Maintain this order.
-    2. DEPTH BY IMPORTANCE: Devote significantly more time to higher-scoring stories.
+    2. DEPTH BY IMPORTANCE: Devote significantly more time to higher-scoring stories. **IMPORTANT: To hit the 12-minute target length, provide deep, insightful context and background analysis for the top news stories.**
     3. EXPAT FOCUS: Focus heavily on business, FDI, manufacturing supply chains, real estate, and policies affecting foreigners in Vietnam.
     4. FACT-CHECKING: Do NOT say "tomorrow's announcement" if the event has already passed based on article dates.
     5. EVENTS: After the news, feature 1-2 interesting events from Hanoi OR HCMC from the provided sources to add "lifestyle flavor".
     6. FILTER TRASH: Ignore tabloid gossip.
-    7. SOCIAL MEDIA: End the news section with 1-2 fun trending topics from the provided social data. Filter out NSFW content strictly.
+    7. SOCIAL MEDIA: End the news section with 1-2 fun trending topics from the provided social data. Filter out NSFW content strictly. Provide commentary on why the local community is discussing this.
     8. CALL TO ACTION (CTA): MANDATORY. After the social media segment, you MUST say: "以上就是今天的越南晨間快訊 Good Morning Vietnam。如果你覺得這集節目對你有幫助，請記得訂閱我們的頻道，並分享給你在越南打拼的同事和朋友。也歡迎你在收聽平台給我們留下五星好評，這對我們是莫大的鼓勵。我是語昕，我們明天見，Tạm biệt！" This closing MUST be the very last thing in the script. The script is NOT complete without it.
     9. TONE: Professional but conversational, like a friendly business briefing. Pace should be engaging.
-    10. LENGTH: The full script MUST be between 1800 and 2400 words. ALWAYS finish the full closing before hitting the word limit — never truncate the CTA or sign-off.
+    10. LENGTH (CRITICAL): The full script MUST be between 2800 and 3400 Chinese characters (which translates to roughly 11-13 minutes of spoken audio). Pad the script with rich, valuable context on Vietnam's economic situation, detailed background on companies mentioned, and thorough explanations of how policies impact foreign businesses. ALWAYS finish the full closing before hitting the length limit — never truncate the CTA or sign-off.
     11. NEWS SOURCE FILTER (CRITICAL): ONLY report stories that originate from Vietnam-local media or events
         happening INSIDE Vietnam. SKIP any story that is primarily about Taiwan-based events, conferences,
-        or government activities that merely mention Vietnam (e.g. a seminar held in Taichung about Vietnam,
-        a Taiwan government policy announcement about Vietnam). The audience is ALREADY IN Vietnam — they need
+        or government activities that merely mention Vietnam. The audience is ALREADY IN Vietnam — they need
         local on-the-ground news, NOT news from Taiwan about Vietnam.
 
     ### STRICT PROHIBITIONS ###
@@ -258,21 +283,22 @@ def generate_podcast_script(news_data, social_data, weather_data=None, exchange_
         "required": ["script", "summary"]
     }
 
-    print("\n[AI 運作中] 正在編寫講稿與摘要 (約需 20~40 秒)...")
+    print("\n[AI 運作中] 正在編寫長篇講稿與摘要 (約需 30~60 秒)...")
     
     config = types.GenerateContentConfig(
         system_instruction=system_prompt,
-        temperature=0.6,
+        temperature=0.7, # Slightly higher temperature for more expansive writing
         response_mime_type='application/json',
         response_schema=podcast_schema
     )
     
-    prompt_content = f"這是今天的素材。請撰寫詳細、豐富的廣播稿與摘要：\n\n{sources_text}"
+    prompt_content = f"這是今天的素材。請撰寫長篇、詳細、深度分析的 12 分鐘廣播稿與摘要：\n\n{sources_text}"
     
     models_to_try = [
         'gemini-2.5-flash', 
+        'gemini-3.5-flash',
         'gemini-2.5-pro',
-        'gemini-2.0-flash'
+        'gemini-2.5-flash-lite'
     ]
     response = None
     
@@ -342,6 +368,9 @@ def generate_podcast_script(news_data, social_data, weather_data=None, exchange_
 def review_and_improve_script(script: str, client=None) -> str:
     """
     AI 編輯審稿：在 TTS 之前檢查稿件品質。
+    - 確保長度符合約 12 分鐘的時長（約 2800 - 3400 字）
+    - 清除格式
+    - 支援第二輪裁剪修飾
     """
     api_key = os.environ.get("GEMINI_API_KEY")
     if not client:
@@ -351,27 +380,28 @@ def review_and_improve_script(script: str, client=None) -> str:
         client = genai.Client(api_key=api_key)
 
     word_count = len(re.findall(r'\S', script))
-    print(f"\n📝 [AI Editor] 審稿中... 目前中文字數預估: {word_count} 字 (以空格切割估算)")
+    print(f"\n📝 [AI Editor] 審稿中... 目前中文字數預估: {word_count} 字 (以非空白字元估算)")
 
     script = _clean_script_formatting(script)
 
-    needs_expansion = word_count < 1500
-    needs_trim = word_count > 2500
+    needs_expansion = word_count < 2600
+    needs_trim = word_count > 3600
 
     if not needs_expansion and not needs_trim:
-        print(f"  ✔️ [AI Editor] 字數 ({word_count}) 在合理範圍內，稿件通過審閱。")
+        print(f"  ✔️ [AI Editor] 字數 ({word_count}) 在 12 分鐘的合理範圍內，稿件通過審閱。")
         return script
 
     if needs_expansion:
         action = "EXPAND"
         instruction = (
-            f"目前稿件偏短 (約 {word_count} 字)。請將其擴充至約 1800 字。為主要新聞加入更深入的分析、"
-            "在越台商的背景脈絡與歷史淵源。請勿加入無意義的廢話，也不要無中生有捏造新聞。"
+            f"目前稿件偏短 (約 {word_count} 字)。這不足以支撐 12 分鐘的廣播。請將其大幅擴充至約 3000 字。"
+            "請為主要新聞加入更深入的產業分析、在越台商/外資的背景脈絡、以及政策對外企的潛在影響。"
+            "提供豐富的情境與價值，但絕對請勿加入無意義的廢話，也不要無中生有捏造新聞或數據。"
         )
     else:
         action = "TRIM"
         instruction = (
-            f"目前稿件稍長 (約 {word_count} 字)。請將其精簡至 2300 字以內。刪除冗言贅字，但必須保留所有主要新聞與活動。"
+            f"目前稿件偏長 (約 {word_count} 字)。請將其精簡至 3300 字以內。刪除冗長累贅的分析，但必須保留所有主要新聞、天氣、匯率與活動。"
         )
 
     print(f"  🤖 [AI Editor] 正在 {action} 稿件...")
@@ -398,24 +428,66 @@ def review_and_improve_script(script: str, client=None) -> str:
     ---
     """
 
-    editor_models = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-2.5-pro']
+    editor_models = ['gemini-2.5-flash', 'gemini-3.5-flash', 'gemini-2.5-pro']
+    revised = None
     for model_name in editor_models:
         try:
             response = client.models.generate_content(
                 model=model_name,
                 contents=editor_prompt,
-                config=types.GenerateContentConfig(temperature=0.4)
+                config=types.GenerateContentConfig(temperature=0.5)
             )
             revised = _clean_script_formatting(response.text.strip())
             new_word_count = len(re.findall(r'\S', revised))
-            print(f"  ✔️ [AI Editor] 審稿完成 (使用 {model_name})，修訂後字數: {new_word_count} 字")
-            return revised
+            print(f"  ✔️ [AI Editor] 第一輪審稿完成 (使用 {model_name})，修訂後字數: {new_word_count} 字")
+            break
         except Exception as e:
             print(f"  ⚠️ [AI Editor] {model_name} 失敗: {e}")
             time.sleep(15)
 
-    print("  ⚠️ [AI Editor] 所有模型均失敗，回傳格式清理後的原稿。")
-    return script
+    if revised is None:
+        print("  ⚠️ [AI Editor] 所有模型均失敗，回傳格式清理後的原稿。")
+        return script
+
+    # Second-pass trim if expansion overshot
+    post_edit_count = len(re.findall(r'\S', revised))
+    if needs_expansion and post_edit_count > 3700:
+        print(f"  ⚠️ [AI Editor] 擴充後字數 ({post_edit_count}) 超過上限，啟動第二輪自動裁剪...")
+        trim_instruction = (
+            f"目前稿件字數 ({post_edit_count}) 稍微過長，請將其修剪至約 3300 字以內。去除過度解釋的段落，"
+            "保留所有主要新聞、天氣、匯率，以及最重要的結尾。"
+        )
+        trim_prompt = f"""
+    You are a senior podcast editor for a Chinese-language daily news podcast in Vietnam.
+    {trim_instruction}
+
+    STRICT RULES:
+    1. Output ONLY the revised script text in Traditional Chinese.
+    2. No Markdown formatting.
+    3. NEVER cut the closing CTA or "Tạm biệt!" sign-off.
+    4. Maintain tone.
+
+    HERE IS THE CURRENT SCRIPT:
+    ---
+    {revised}
+    ---
+    """
+        for model_name in editor_models:
+            try:
+                resp2 = client.models.generate_content(
+                    model=model_name,
+                    contents=trim_prompt,
+                    config=types.GenerateContentConfig(temperature=0.4)
+                )
+                trimmed = _clean_script_formatting(resp2.text.strip())
+                final_count = len(re.findall(r'\S', trimmed))
+                print(f"  ✔️ [AI Editor] 第二輪裁剪完成 (使用 {model_name})，最終字數: {final_count} 字")
+                return trimmed
+            except Exception as e:
+                print(f"  ⚠️ [AI Editor] 第二輪裁剪失敗 ({model_name}): {e}")
+                time.sleep(10)
+
+    return revised
 
 
 def _clean_script_formatting(script: str) -> str:
