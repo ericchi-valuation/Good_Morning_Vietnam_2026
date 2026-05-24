@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 24 May 2026 00:05:48 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 07:27:24 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Sun, 24 May 2026 07:05:45 +0700</pubDate>
+    <pubDate>Sun, 24 May 2026 14:27:24 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -86,11 +86,11 @@
     </item>
     <item>
       <title>越南晨間快訊 Good Morning Vietnam - 2026-05-24</title>
-      <description><![CDATA[今天的「越南晨間快訊」聚焦越南作為2026-2035年具吸引力投資目的地的長期潛力，以及吉寶企業仲裁案對越南房地產投資者的重要啟示。我們也關注了龍城機場工程進度落後可能帶來的影響，以及受控通膨對越南經濟增長目標的積極支持。在文化活動方面，胡志明市正舉辦兒童繪本節，並將在六月迎來國際時裝週。收聽本集，掌握越南最新商機與生活動態！]]></description>
+      <description><![CDATA[本集『越南晨間快訊』深度分析了吉寶企業在胡志明市帝國城仲裁案對越南新《土地法》及房地產投資的影響，同時探討日本Nissha收購越南心臟支架製造商，以及越南推動生態工業園區以吸引高質量外資的策略。活動方面，越南有六個地方榮登亞洲最佳早餐榜單，而河內市政府也預計於六月底公布長達百年的城市總體規劃。歡迎收聽本集節目，掌握越南最新商機與動態。]]></description>
       <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-05-24/VietnamDaily_Podcast_Final.mp3</guid>
-      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-05-24/VietnamDaily_Podcast_Final.mp3" length="9053665" type="audio/mpeg"/>
-      <itunes:duration>06:17</itunes:duration>
-      <pubDate>Sun, 24 May 2026 07:05:45 +0700</pubDate>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-05-24/VietnamDaily_Podcast_Final.mp3" length="15822096" type="audio/mpeg"/>
+      <itunes:duration>10:59</itunes:duration>
+      <pubDate>Sun, 24 May 2026 14:27:24 +0700</pubDate>
     </item>
   </channel>
 </rss>
