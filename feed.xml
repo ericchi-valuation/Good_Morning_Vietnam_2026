@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 25 May 2026 06:01:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 00:17:26 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Mon, 25 May 2026 13:01:09 +0700</pubDate>
+    <pubDate>Tue, 26 May 2026 07:17:23 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -99,6 +99,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-05-25/VietnamDaily_Podcast_Final.mp3" length="12820941" type="audio/mpeg"/>
       <itunes:duration>08:54</itunes:duration>
       <pubDate>Mon, 25 May 2026 13:01:09 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-05-26</title>
+      <description><![CDATA[今日『越南晨間快訊』聚焦越南南部工業地產市場的FDI投資趨勢轉變，顯示外資更青睞高科技、即用型廠房。此外，日本尼莎株式會社完成對越南USM Healthcare的收購，以及三星越南廠區首季利潤翻倍，凸顯了越南在高科技製造與醫療保健領域的吸引力。政策方面，越南財政部正收緊房地產『雙重申報價格』的稅務徵管，而電力公司也考慮對家庭用電實施尖峰時段電價。生活資訊，河內JW萬豪酒店推出秘魯與日本料理融合菜餚。更多詳細報導與財經匯率分析，請收聽本集節目。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-05-26/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-05-26/VietnamDaily_Podcast_Final.mp3" length="16667837" type="audio/mpeg"/>
+      <itunes:duration>11:34</itunes:duration>
+      <pubDate>Tue, 26 May 2026 07:17:23 +0700</pubDate>
     </item>
   </channel>
 </rss>
