@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 26 May 2026 00:17:26 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 00:19:18 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Tue, 26 May 2026 07:17:23 +0700</pubDate>
+    <pubDate>Wed, 27 May 2026 07:19:15 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -107,6 +107,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-05-26/VietnamDaily_Podcast_Final.mp3" length="16667837" type="audio/mpeg"/>
       <itunes:duration>11:34</itunes:duration>
       <pubDate>Tue, 26 May 2026 07:17:23 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-05-27</title>
+      <description><![CDATA[今天的越南晨間快訊聚焦多項重要發展。越南正致力於改革以吸引高質量外資，同時Amata City Halong工業園區也迎來半導體供應鏈新項目，顯示越南在高科技產業的發展雄心。此外，胡志明市地鐵四號線的可行性研究啟動，越南IT服務市場也提供豐富的外包機會。活動方面，胡志明市將舉辦『2026年越南教育展』，河內則有大型玩具和兒童產品展覽。想掌握更多越南脈動，請鎖定我們的每日更新！]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-05-27/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-05-27/VietnamDaily_Podcast_Final.mp3" length="15281675" type="audio/mpeg"/>
+      <itunes:duration>10:36</itunes:duration>
+      <pubDate>Wed, 27 May 2026 07:19:15 +0700</pubDate>
     </item>
   </channel>
 </rss>
