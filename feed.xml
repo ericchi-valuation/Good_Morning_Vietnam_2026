@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 29 May 2026 00:23:21 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 00:18:29 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Fri, 29 May 2026 07:23:17 +0700</pubDate>
+    <pubDate>Sat, 30 May 2026 07:18:25 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -131,6 +131,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-05-29/VietnamDaily_Podcast_Final.mp3" length="13119363" type="audio/mpeg"/>
       <itunes:duration>09:06</itunes:duration>
       <pubDate>Fri, 29 May 2026 07:23:17 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-05-30</title>
+      <description><![CDATA[本集『越南晨間快訊』聚焦越南與泰國在半導體FDI上的競爭，以及越南吸引外資策略從『鋪紅毯』轉向長期夥伴關係的趨勢，同時也關注泰國CPN集團在越南商業地產的新發展。今日的活動亮點包括河內與胡志明市正崛起成為亞洲重要的會展目的地，以及社群熱議的『越南人天天吃河粉卻不胖』的飲食習慣。歡迎收聽，掌握越南最新脈動！]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-05-30/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-05-30/VietnamDaily_Podcast_Final.mp3" length="17507308" type="audio/mpeg"/>
+      <itunes:duration>12:09</itunes:duration>
+      <pubDate>Sat, 30 May 2026 07:18:25 +0700</pubDate>
     </item>
   </channel>
 </rss>
