@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 02 Jun 2026 00:25:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 01:49:04 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Tue, 02 Jun 2026 07:25:00 +0700</pubDate>
+    <pubDate>Wed, 03 Jun 2026 08:49:00 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -163,6 +163,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-02/VietnamDaily_Podcast_Final.mp3" length="16519252" type="audio/mpeg"/>
       <itunes:duration>11:28</itunes:duration>
       <pubDate>Tue, 02 Jun 2026 07:25:00 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-06-03</title>
+      <description><![CDATA[「越南晨間快訊」今日聚焦越南在高科技投資浪潮中持續推進價值鏈升級，以及政府更新第155號法令以改善投訴解決規則，強化外商投資環境。節目也深入探討了加強本地產業鏈連結以釋放FDI更大價值的策略。今日活動包括泰國副總理Anutin訪問河內，以及越南工貿部調整2026年「地球一小時」啟動活動日程。歡迎收聽本集節目，掌握越南最新商機與生活資訊。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-03/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-03/VietnamDaily_Podcast_Final.mp3" length="11160807" type="audio/mpeg"/>
+      <itunes:duration>07:45</itunes:duration>
+      <pubDate>Wed, 03 Jun 2026 08:49:00 +0700</pubDate>
     </item>
   </channel>
 </rss>
