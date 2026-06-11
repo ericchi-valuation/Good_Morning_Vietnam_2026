@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 10 Jun 2026 00:25:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 00:31:36 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Wed, 10 Jun 2026 07:25:34 +0700</pubDate>
+    <pubDate>Thu, 11 Jun 2026 07:31:33 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -203,6 +203,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-10/VietnamDaily_Podcast_Final.mp3" length="11341992" type="audio/mpeg"/>
       <itunes:duration>07:52</itunes:duration>
       <pubDate>Wed, 10 Jun 2026 07:25:34 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-06-11</title>
+      <description><![CDATA[本期節目聚焦北越工業重鎮太原省行政區劃合併後的最新發展機遇、越南屋頂太陽能發電的政策推進與電力缺口現狀，以及胡志明市加速跨區域交通網絡建設的規劃。今日精選活動包括將於本月中旬開幕的「河內國際嬰童用品及玩具博覽會」，展示最新嬰幼兒與教育產品；以及在胡志明市舉辦的「斯里蘭卡文化與旅遊推介會」，提供豐富的南亞風情與旅遊資訊。歡迎收聽本期節目，掌握最全面的越南財經與生活動態。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-11/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-11/VietnamDaily_Podcast_Final.mp3" length="14790155" type="audio/mpeg"/>
+      <itunes:duration>10:16</itunes:duration>
+      <pubDate>Thu, 11 Jun 2026 07:31:33 +0700</pubDate>
     </item>
   </channel>
 </rss>
