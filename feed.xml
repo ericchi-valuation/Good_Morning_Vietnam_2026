@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 11 Jun 2026 00:31:36 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 00:27:47 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Thu, 11 Jun 2026 07:31:33 +0700</pubDate>
+    <pubDate>Fri, 12 Jun 2026 07:27:44 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -211,6 +211,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-11/VietnamDaily_Podcast_Final.mp3" length="14790155" type="audio/mpeg"/>
       <itunes:duration>10:16</itunes:duration>
       <pubDate>Thu, 11 Jun 2026 07:31:33 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-06-12</title>
+      <description><![CDATA[今天「越南晨間快訊」報導，越南今年前五個月外國直接投資總額激增34.9%，顯示國際投資者對越南經濟前景的高度信心。同時，中國在磷化銦（InP）領域的影響力，對全球AI半導體供應鏈構成戰略影響，值得在越高科技企業關注。此外，越南證券存管公司表示，越南股市有望在2028-2029年提前達到MSCI新興市場升級標準，預期將吸引更多外資流入。今日無特別公開活動，社群媒體熱議飯店護照隱私、網路言論規範及兒童戶外活動等話題。請務必收聽本集，掌握越南最新脈動！]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-12/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-12/VietnamDaily_Podcast_Final.mp3" length="10940124" type="audio/mpeg"/>
+      <itunes:duration>07:35</itunes:duration>
+      <pubDate>Fri, 12 Jun 2026 07:27:44 +0700</pubDate>
     </item>
   </channel>
 </rss>
