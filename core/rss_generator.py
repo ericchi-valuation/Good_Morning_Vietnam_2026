@@ -8,30 +8,29 @@ EPISODES_FILE = "episodes.json"
 FEED_FILE = "feed.xml"
 
 # Podcast Metadata
-PODCAST_NAME = "The Hungarian Daily"
+PODCAST_NAME = "越南晨間快訊 Good Morning Vietnam"
 PODCAST_DESC = (
-    "Your essential morning briefing on life, business, and politics in Hungary — "
-    "produced fresh every day by AI, hosted by Ray. "
-    "Each episode scans 10+ trusted Hungarian and international sources including "
-    "Hungary Today, Portfolio.hu, Budapest Business Journal, The Budapest Times, "
-    "Telex, Daily News Hungary, and more. "
-    "We cover ranked top stories, Budapest weather, Forint exchange rates "
-    "(EUR/HUF and USD/HUF vs the previous business day's close), "
-    "local events around the city, and what the expat community is talking about on Reddit r/budapest. "
-    "Episodes run 8–12 minutes. New episode every morning. "
-    "Perfect for expats, international professionals, and anyone curious about Central Europe."
+    "每天早晨六點，為在越南打拼的台商與華語商務人士，精準掌握一日重點。"
+    " 【每集必報】"
+    " • 越南盾最新匯率（USD/CNY/TWD 對 VND），高波動時分析直接影響"
+    " • 外國直接投資（FDI）動態：誰進場、哪個產業、投了多少"
+    " • 製造業與供應鏈：工廠、工業園區、進出口關鍵訊息"
+    " • 越南政府最新政策：土地法、勞工法規、外資審批流程"
+    " • 胡志明市與河內基礎建設、房地產市場脈動"
+    " • 越南社群熱議話題與在地活動精選"
+    " AI 自動從 VnExpress、VIR、Tuoi Tre 彙整，每日更新。"
+    " 收聽: https://open.spotify.com/show/033hnOZeV2WWbtar7TiYUg"
 )
-PODCAST_WEBSITE = "https://open.spotify.com/show/7zU2b8xDgRL8D7b9T9kjiE"
+PODCAST_WEBSITE = "https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026"
 PODCAST_EXPLICIT = False
-PODCAST_IMAGE_URL = "https://ericchi-valuation.github.io/The-Hungary-Daily/cover.jpg"
+PODCAST_IMAGE_URL = "https://raw.githubusercontent.com/ericchi-valuation/Good_Morning_Vietnam_2026/main/cover.JPG"
 AUTHOR_NAME = "Eric Chi"
-AUTHOR_EMAIL = "eric.chi1988@gmail.com"
+AUTHOR_EMAIL = "eric.chi1988@gmail.com"  
 
 def generate_rss(new_title, new_summary, str_date, mp3_url, duration, file_size):
-    tz_str = os.environ.get("TZ", "Europe/Budapest")
+    tz_str = os.environ.get("TZ", "Asia/Ho_Chi_Minh")
     tz = pytz.timezone(tz_str)
     
-    # 1. 讀取歷史集數清單
     episodes_data = []
     if os.path.exists(EPISODES_FILE):
         with open(EPISODES_FILE, 'r', encoding='utf-8') as f:
@@ -40,7 +39,6 @@ def generate_rss(new_title, new_summary, str_date, mp3_url, duration, file_size)
             except:
                 pass
 
-    # 2. 新增今日集數
     new_ep = {
         "title": new_title,
         "summary": new_summary,
@@ -50,43 +48,36 @@ def generate_rss(new_title, new_summary, str_date, mp3_url, duration, file_size)
         "file_size": file_size
     }
     
-    # 檢查是否重複上架同一天
     episodes_data = [ep for ep in episodes_data if ep['title'] != new_title]
     episodes_data.append(new_ep)
     
-    # 限制集數 (保留最新 366 集，約一年份)，避免 RSS 無限膨脹
     MAX_EPISODES = 366
     if len(episodes_data) > MAX_EPISODES:
         episodes_data = episodes_data[-MAX_EPISODES:]
     
-    # 寫回 json 備份
     with open(EPISODES_FILE, 'w', encoding='utf-8') as f:
         json.dump(episodes_data, f, ensure_ascii=False, indent=2)
 
-    # 3. 使用 podgen 產生乾淨完美的 RSS XML
     p = Podcast()
     p.name = PODCAST_NAME
     p.description = PODCAST_DESC
     p.website = PODCAST_WEBSITE
     p.explicit = PODCAST_EXPLICIT
     p.image = PODCAST_IMAGE_URL
-    p.language = "en-US"
-    p.category = Category('News', 'Daily News')
+    p.language = "zh-TW"
+    p.category = Category('News', 'Business News')
     
-    # 👇 更新點：加上 作者 與 Email，以符合 Spotify / Apple Podcast 驗證權限需求
     p.authors = [Person(AUTHOR_NAME, AUTHOR_EMAIL)]
     p.owner = Person(AUTHOR_NAME, AUTHOR_EMAIL)
 
     for ep_data in episodes_data:
-        # 將 ISO 日期字串轉回 True localized datetime
         pub_date = datetime.fromisoformat(ep_data['date'])
         
         episode = Episode()
         episode.title = ep_data['title']
-        episode.summary = ep_data['summary'] # Apple Podcast 需要的純文字或微量HTML簡介
+        episode.summary = ep_data['summary'] 
         episode.publication_date = pub_date
 
-        # 將 HH:MM:SS 轉為 datetime.timedelta
         h, m, s = map(int, ep_data['duration'].split(':'))
         td = timedelta(hours=h, minutes=m, seconds=s)
         
@@ -101,16 +92,14 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--title",        required=True)
-    parser.add_argument("--summary-file", required=False, default="summary.txt",
-                        help="Path to a text file containing the episode description (default: summary.txt)")
+    parser.add_argument("--summary-file", required=False, default="summary.txt")
     parser.add_argument("--date",         required=True)
     parser.add_argument("--url",          required=True)
     parser.add_argument("--duration",     required=True)
     parser.add_argument("--size",         required=True)
     args = parser.parse_args()
 
-    # Read summary from file to avoid shell quoting / length issues
-    summary_text = "Today's top news and updates from Hungary for expats and international professionals."
+    summary_text = "今日最新的越南商業與科技動態。"
     summary_path = args.summary_file
     if os.path.exists(summary_path):
         with open(summary_path, "r", encoding="utf-8") as _f:
