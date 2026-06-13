@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
-    <title>The Hungarian Daily</title>
-    <link>https://open.spotify.com/show/7zU2b8xDgRL8D7b9T9kjiE</link>
-    <description>Your essential morning briefing on life, business, and politics in Hungary — produced fresh every day by AI, hosted by Ray. Each episode scans 10+ trusted Hungarian and international sources including Hungary Today, Portfolio.hu, Budapest Business Journal, The Budapest Times, Telex, Daily News Hungary, and more. We cover ranked top stories, Budapest weather, Forint exchange rates (EUR/HUF and USD/HUF vs the previous business day's close), local events around the city, and what the expat community is talking about on Reddit r/budapest. Episodes run 8–12 minutes. New episode every morning. Perfect for expats, international professionals, and anyone curious about Central Europe.</description>
+    <title>越南晨間快訊 Good Morning Vietnam</title>
+    <link>https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026</link>
+    <description>每天早晨六點，為在越南打拼的台商與華語商務人士，精準掌握一日重點。 【每集必報】 • 越南盾最新匯率（USD/CNY/TWD 對 VND），高波動時分析直接影響 • 外國直接投資（FDI）動態：誰進場、哪個產業、投了多少 • 製造業與供應鏈：工廠、工業園區、進出口關鍵訊息 • 越南政府最新政策：土地法、勞工法規、外資審批流程 • 胡志明市與河內基礎建設、房地產市場脈動 • 越南社群熱議話題與在地活動精選 AI 自動從 VnExpress、VIR、Tuoi Tre 彙整，每日更新。 收聽: https://open.spotify.com/show/033hnOZeV2WWbtar7TiYUg</description>
     <itunes:explicit>no</itunes:explicit>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
-    <language>en-US</language>
-    <lastBuildDate>Sat, 13 Jun 2026 06:36:00 +0000</lastBuildDate>
+    <language>zh-TW</language>
+    <lastBuildDate>Sat, 13 Jun 2026 07:20:38 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Sat, 13 Jun 2026 13:35:59 +0700</pubDate>
+    <pubDate>Sat, 13 Jun 2026 14:20:37 +0700</pubDate>
     <itunes:category text="News">
-      <itunes:category text="Daily News"/>
+      <itunes:category text="Business News"/>
     </itunes:category>
-    <itunes:image href="https://ericchi-valuation.github.io/The-Hungary-Daily/cover.jpg"/>
+    <itunes:image href="https://raw.githubusercontent.com/ericchi-valuation/Good_Morning_Vietnam_2026/main/cover.JPG"/>
     <itunes:owner>
       <itunes:name>Eric Chi</itunes:name>
       <itunes:email>eric.chi1988@gmail.com</itunes:email>
@@ -222,11 +222,11 @@
     </item>
     <item>
       <title>越南晨間快訊 Good Morning Vietnam - 2026-06-13</title>
-      <description><![CDATA[今天的「越南晨間快訊」為您帶來多項重磅消息。首先，越南政治局發布了關於外國直接投資（FDI）部門發展的決議，預示著越南將轉向吸引高質量、高附加值的投資。接著，日本Meiko公司投資5億美元在越南北部興建電子電路工廠，鞏固了越南在全球電子供應鏈中的地位。此外，大華銀行與越南國家通訊社均指出，儘管面臨外部挑戰，越南經濟仍展現出強勁韌性。今日活動方面，胡志明市將舉辦「與企業並肩開創綠色發展」活動，河內則有「工藝村創新傳統」展示。歡迎收聽本集節目，掌握更多越南在地脈動。]]></description>
+      <description><![CDATA[本集『越南晨間快訊』深度剖析越南政治局發布的FDI發展決議，預示更高品質外資引進的新方向。同時，日本Meiko投資5億美元在越南北部興建電子電路廠，強化越南在全球電子供應鏈地位。節目也關注AI熱潮如何吸引外資湧入越南新興成長產業。生活資訊方面，帶您了解河內工藝村莊如何為現代市場重塑傳統。歡迎收聽，掌握越南最新商業與生活脈動。]]></description>
       <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-13/VietnamDaily_Podcast_Final.mp3</guid>
-      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-13/VietnamDaily_Podcast_Final.mp3" length="16512984" type="audio/mpeg"/>
-      <itunes:duration>11:28</itunes:duration>
-      <pubDate>Sat, 13 Jun 2026 13:35:59 +0700</pubDate>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-13/VietnamDaily_Podcast_Final.mp3" length="15344370" type="audio/mpeg"/>
+      <itunes:duration>10:39</itunes:duration>
+      <pubDate>Sat, 13 Jun 2026 14:20:37 +0700</pubDate>
     </item>
   </channel>
 </rss>
