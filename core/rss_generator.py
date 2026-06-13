@@ -9,7 +9,29 @@ FEED_FILE = "feed.xml"
 
 # Podcast Metadata
 PODCAST_NAME = "越南晨間快訊 Good Morning Vietnam"
-PODCAST_DESC = "專為在越南生活的台商、華人與中文商務人士打造的每日重點新聞播報。AI 全自動產製，為您掌握越南產經、外資動態與在地生活情報。"
+PODCAST_DESC = (
+    "每天早晨六點，為在越南打拼的台商與華語商務人士，精準掌握一日重點。
+
+"
+    "【每集必報】
+"
+    "• 越南盾最新匯率（USD／CNY／TWD 對 VND），高波動時分析直接影響
+"
+    "• 外國直接投資（FDI）動態：誰進場、哪個產業、投了多少
+"
+    "• 製造業與供應鏈：工廠、工業園區、進出口關鍵訊息
+"
+    "• 越南政府最新政策：土地法、勞工法規、外資審批流程
+"
+    "• 胡志明市與河內基礎建設、房地產市場脈動
+"
+    "• 越南社群熱議話題與在地活動精選
+
+"
+    "AI 自動從越南主流財經媒體（VnExpress、VIR、Tuoi Tre 等）彙整，每日更新。
+"
+    "收聽節目：https://open.spotify.com/show/033hnOZeV2WWbtar7TiYUg"
+)
 PODCAST_WEBSITE = "https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026"
 PODCAST_EXPLICIT = False
 PODCAST_IMAGE_URL = "https://raw.githubusercontent.com/ericchi-valuation/Good_Morning_Vietnam_2026/main/cover.JPG"
