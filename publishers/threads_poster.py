@@ -12,6 +12,10 @@ def post_to_threads(text_content):
 
     print("🧵 準備發布貼文至 Threads...")
     
+    SPOTIFY_LINK = "https://open.spotify.com/show/033hnOZeV2WWbtar7TiYUg?si=fd589698a33c4c2d"
+    if SPOTIFY_LINK not in text_content:
+        text_content = text_content.rstrip() + f"\n\n🎧 完整節目收聽: {SPOTIFY_LINK}"
+
     if len(text_content) > 500:
         print("⚠️ 貼文超過 500 字元，將自動截斷並加上 '...'")
         text_content = text_content[:496] + "..."
