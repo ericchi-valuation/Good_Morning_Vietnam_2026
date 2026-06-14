@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 13 Jun 2026 07:20:38 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 00:19:51 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Sat, 13 Jun 2026 14:20:37 +0700</pubDate>
+    <pubDate>Sun, 14 Jun 2026 07:19:49 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -227,6 +227,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-13/VietnamDaily_Podcast_Final.mp3" length="15344370" type="audio/mpeg"/>
       <itunes:duration>10:39</itunes:duration>
       <pubDate>Sat, 13 Jun 2026 14:20:37 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-06-14</title>
+      <description><![CDATA[今天的「越南晨間快訊」為您帶來日本美高電子在河內投資5億美元興建新廠，以及越南政治局發布關於FDI發展的重要決議。同時，我們也探討了越南經濟如何在成本壓力下展現韌性，以及VinFast電動車的宏大目標。活動方面，有「人間佛教聯合總會訪問越南」和「心南鄉遇見茉莉花！越南奧黛×東南亞美食」等精彩內容。社群熱議則圍繞著「雜貨店新發現」與「遊客編造心靈故事」等話題。期待您的收聽，掌握越南脈動。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-14/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-14/VietnamDaily_Podcast_Final.mp3" length="13587061" type="audio/mpeg"/>
+      <itunes:duration>09:26</itunes:duration>
+      <pubDate>Sun, 14 Jun 2026 07:19:49 +0700</pubDate>
     </item>
   </channel>
 </rss>
