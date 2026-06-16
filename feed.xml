@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 15 Jun 2026 00:27:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 01:50:24 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Mon, 15 Jun 2026 07:27:48 +0700</pubDate>
+    <pubDate>Tue, 16 Jun 2026 08:50:21 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -243,6 +243,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-15/VietnamDaily_Podcast_Final.mp3" length="13580791" type="audio/mpeg"/>
       <itunes:duration>09:25</itunes:duration>
       <pubDate>Mon, 15 Jun 2026 07:27:48 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-06-16</title>
+      <description><![CDATA[今天的「越南晨間快訊」聚焦第七屆兩岸金融論壇對越南投資的深遠影響、越南Thaco與現代樂鐵深化鐵路製造本地化合作，以及FDI企業上市對越南股市發展的重要性。此外，節目也探討外國人在越南房地產所有權的法律框架。活動方面，河內將舉行關於網路犯罪的國際會議，駐越南代表處僑務秘書處也將舉辦僑社活動。社群熱議話題包括越南私房景點、機車旅行路線選擇以及世界盃相關討論。歡迎收聽本集節目，掌握越南最新動態。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-16/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-16/VietnamDaily_Podcast_Final.mp3" length="14928710" type="audio/mpeg"/>
+      <itunes:duration>10:22</itunes:duration>
+      <pubDate>Tue, 16 Jun 2026 08:50:21 +0700</pubDate>
     </item>
   </channel>
 </rss>
