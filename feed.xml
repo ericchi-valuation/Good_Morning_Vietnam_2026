@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 16 Jun 2026 01:50:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 00:28:28 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Tue, 16 Jun 2026 08:50:21 +0700</pubDate>
+    <pubDate>Wed, 17 Jun 2026 07:28:25 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -251,6 +251,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-16/VietnamDaily_Podcast_Final.mp3" length="14928710" type="audio/mpeg"/>
       <itunes:duration>10:22</itunes:duration>
       <pubDate>Tue, 16 Jun 2026 08:50:21 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-06-17</title>
+      <description><![CDATA[今天的「越南晨間快訊」為您帶來西門子與Pacific Land合作開發下一代智慧工業園區的詳細報導，以及越南高科技出口首次突破五成的里程碑。此外，我們也深度解析了越南投資簽證指南，以及越南經濟如何邁向中等收入國家的挑戰與機遇。活動方面，胡志明市將舉辦義大利葡萄酒貿易展，越南航空也開通了河內至阿姆斯特丹的新航線。歡迎您收聽本集節目，掌握越南的最新商機與生活資訊。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-17/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-17/VietnamDaily_Podcast_Final.mp3" length="13693013" type="audio/mpeg"/>
+      <itunes:duration>09:30</itunes:duration>
+      <pubDate>Wed, 17 Jun 2026 07:28:25 +0700</pubDate>
     </item>
   </channel>
 </rss>
