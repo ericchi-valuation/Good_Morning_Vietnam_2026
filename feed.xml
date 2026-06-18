@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 17 Jun 2026 00:28:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 00:25:21 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Wed, 17 Jun 2026 07:28:25 +0700</pubDate>
+    <pubDate>Thu, 18 Jun 2026 07:25:18 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -259,6 +259,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-17/VietnamDaily_Podcast_Final.mp3" length="13693013" type="audio/mpeg"/>
       <itunes:duration>09:30</itunes:duration>
       <pubDate>Wed, 17 Jun 2026 07:28:25 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-06-18</title>
+      <description><![CDATA[今天的『越南晨間快訊』，我們首先關注越南政府將高科技外國直接投資（FDI）設為策略優先重點，以及為提振企業士氣而提出的多項稅務優惠和繳納期限延長政策。胡志明市正加速工業園區的智慧化與永續化轉型，同時美國聯準會維持利率不變。本地活動方面，越南與波蘭將加強循環經濟與綠色技術合作，德魯奇集團在胡志明市開設AI智能睡眠旗艦店，警方則成功解救了數百隻被盜的貓咪。社群熱點則有在河內的思鄉情懷討論，以及AI如何改變社群媒體搜尋資訊的方式。歡迎收聽本集節目，掌握越南最新脈動。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-18/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-18/VietnamDaily_Podcast_Final.mp3" length="17045882" type="audio/mpeg"/>
+      <itunes:duration>11:50</itunes:duration>
+      <pubDate>Thu, 18 Jun 2026 07:25:18 +0700</pubDate>
     </item>
   </channel>
 </rss>
