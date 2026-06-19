@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 18 Jun 2026 00:25:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 01:53:06 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Thu, 18 Jun 2026 07:25:18 +0700</pubDate>
+    <pubDate>Fri, 19 Jun 2026 08:53:01 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -267,6 +267,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-18/VietnamDaily_Podcast_Final.mp3" length="17045882" type="audio/mpeg"/>
       <itunes:duration>11:50</itunes:duration>
       <pubDate>Thu, 18 Jun 2026 07:25:18 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-06-19</title>
+      <description><![CDATA[今天的越南晨間快訊，我們首先關注北歐國家對越南高價值製造業的投資熱潮，以及推動外國直接投資進入越南的兩大關鍵趨勢。同時，我們也報導了越南銀行存款利率再次大幅上漲的消息，以及德意志銀行對企業質量吸引外資的觀點。在活動方面，河內正舉行國際玩具和兒童產品展覽會，而英特爾則在胡志明市慶祝其在越南投資二十週年。歡迎收聽本集節目，掌握越南最新商業與生活資訊。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-19/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-19/VietnamDaily_Podcast_Final.mp3" length="11730695" type="audio/mpeg"/>
+      <itunes:duration>08:08</itunes:duration>
+      <pubDate>Fri, 19 Jun 2026 08:53:01 +0700</pubDate>
     </item>
   </channel>
 </rss>
