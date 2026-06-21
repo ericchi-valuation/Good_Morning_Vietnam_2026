@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 20 Jun 2026 00:20:15 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 00:22:08 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Sat, 20 Jun 2026 07:20:12 +0700</pubDate>
+    <pubDate>Sun, 21 Jun 2026 07:22:04 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -283,6 +283,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-20/VietnamDaily_Podcast_Final.mp3" length="13738780" type="audio/mpeg"/>
       <itunes:duration>09:32</itunes:duration>
       <pubDate>Sat, 20 Jun 2026 07:20:12 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-06-21</title>
+      <description><![CDATA[本集『越南晨間快訊』將深入探討胡志明市如何鎖定人工智慧與半導體領域，推動新一代外國直接投資，以及這項政策將如何全面惠及越南的工業園區、科技和金融產業。我們也將關注越南增值稅新規定對企業的影響。今日活動包括胡志明市勞工免費健康檢查與法律諮詢，以及河內關於化妝品市場透明度與打擊假冒產品的活動。立即收聽，掌握越南最新商業與生活資訊！]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-21/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-21/VietnamDaily_Podcast_Final.mp3" length="15647182" type="audio/mpeg"/>
+      <itunes:duration>10:51</itunes:duration>
+      <pubDate>Sun, 21 Jun 2026 07:22:04 +0700</pubDate>
     </item>
   </channel>
 </rss>
