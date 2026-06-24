@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 23 Jun 2026 00:20:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 00:09:22 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Tue, 23 Jun 2026 07:20:09 +0700</pubDate>
+    <pubDate>Wed, 24 Jun 2026 07:09:19 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -307,6 +307,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-23/VietnamDaily_Podcast_Final.mp3" length="9235479" type="audio/mpeg"/>
       <itunes:duration>06:24</itunes:duration>
       <pubDate>Tue, 23 Jun 2026 07:20:09 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-06-24</title>
+      <description><![CDATA[今天的《越南晨間快訊》深入探討了越南政府透過第10號決議推動的高品質外國直接投資新策略，以及泰國在越南零售、製造和能源領域不斷增長的投資趨勢。此外，我們也關注了河內如何透過新建地鐵線路，連接內排機場與和樂、書林等新興增長極，以擴展城市發展空間。活動方面，河內將舉辦「我的越南2026」跑步活動，駐胡志明市辦事處僑務組也發布了全球僑社動態，而台北影音公會則出訪越南大市場，展示AI黑科技。歡迎收聽本集節目，掌握越南最新脈動！]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-24/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-24/VietnamDaily_Podcast_Final.mp3" length="13866049" type="audio/mpeg"/>
+      <itunes:duration>09:37</itunes:duration>
+      <pubDate>Wed, 24 Jun 2026 07:09:19 +0700</pubDate>
     </item>
   </channel>
 </rss>
