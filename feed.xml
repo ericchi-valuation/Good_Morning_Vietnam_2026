@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 26 Jun 2026 00:22:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 00:19:44 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Fri, 26 Jun 2026 07:22:12 +0700</pubDate>
+    <pubDate>Sat, 27 Jun 2026 07:19:41 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -331,6 +331,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-26/VietnamDaily_Podcast_Final.mp3" length="13815266" type="audio/mpeg"/>
       <itunes:duration>09:35</itunes:duration>
       <pubDate>Fri, 26 Jun 2026 07:22:12 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-06-27</title>
+      <description><![CDATA[今天的「越南晨間快訊」聚焦於胡志明市守添新市區的重大發展，韓國樂天集團與發達房地產簽署合作協議，將共同打造總投資額高達60兆越南盾的「樂天生態智慧城市」專案。此外，我們也深入探討了越南綠色轉型面臨的挑戰與加速策略，以及外國直接投資如何成為越南女性正式就業的重要推手。活動方面，胡志明市有「兒童節2026」與多個社會住宅項目啟動，河內則有「蓮花節2026」慶祝文化遺產。歡迎收聽本集節目，掌握越南最新脈動。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-27/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-27/VietnamDaily_Podcast_Final.mp3" length="12903697" type="audio/mpeg"/>
+      <itunes:duration>08:57</itunes:duration>
+      <pubDate>Sat, 27 Jun 2026 07:19:41 +0700</pubDate>
     </item>
   </channel>
 </rss>
