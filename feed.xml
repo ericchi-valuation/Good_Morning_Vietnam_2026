@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 27 Jun 2026 00:19:44 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 00:12:16 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Sat, 27 Jun 2026 07:19:41 +0700</pubDate>
+    <pubDate>Sun, 28 Jun 2026 07:12:14 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -339,6 +339,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-27/VietnamDaily_Podcast_Final.mp3" length="12903697" type="audio/mpeg"/>
       <itunes:duration>08:57</itunes:duration>
       <pubDate>Sat, 27 Jun 2026 07:19:41 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-06-28</title>
+      <description><![CDATA[本集「越南晨間快訊」為您深入報導越南政府延長多項稅費繳納期限，為企業提供高達125兆越南盾的支持；同時，匯豐銀行肯定越南經濟韌性，但也指出貿易逆差與通膨壓力。此外，越南國家競爭力排名顯著提升，並啟動國家半導體中心，展現其在高科技領域的雄心。活動方面，胡志明市將舉辦「友誼旋律」節目，河內則有「荷花節」慶祝傳統文化。歡迎收聽，了解更多越南的最新動態與商機！]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-28/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-28/VietnamDaily_Podcast_Final.mp3" length="16582574" type="audio/mpeg"/>
+      <itunes:duration>11:30</itunes:duration>
+      <pubDate>Sun, 28 Jun 2026 07:12:14 +0700</pubDate>
     </item>
   </channel>
 </rss>
