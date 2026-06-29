@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 28 Jun 2026 00:12:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 00:19:15 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Sun, 28 Jun 2026 07:12:14 +0700</pubDate>
+    <pubDate>Mon, 29 Jun 2026 07:19:11 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -347,6 +347,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-28/VietnamDaily_Podcast_Final.mp3" length="16582574" type="audio/mpeg"/>
       <itunes:duration>11:30</itunes:duration>
       <pubDate>Sun, 28 Jun 2026 07:12:14 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-06-29</title>
+      <description><![CDATA[本集「越南晨間快訊」報導了越南個人所得稅撫養親屬扣除額上調的最新建議，以及越南在全球價值鏈中轉型扮演更高價值角色的趨勢，同時關注胡志明市在高科技合作方面的新進展。今日活動包括胡志明市紀念更名50週年的文化遺產漫步，以及河內荷花節的閉幕。歡迎收聽節目，了解更多越南在地商情與生活資訊。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-29/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-29/VietnamDaily_Podcast_Final.mp3" length="12426597" type="audio/mpeg"/>
+      <itunes:duration>08:37</itunes:duration>
+      <pubDate>Mon, 29 Jun 2026 07:19:11 +0700</pubDate>
     </item>
   </channel>
 </rss>
