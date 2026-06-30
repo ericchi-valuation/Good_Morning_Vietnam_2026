@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 29 Jun 2026 00:19:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 00:17:11 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Mon, 29 Jun 2026 07:19:11 +0700</pubDate>
+    <pubDate>Tue, 30 Jun 2026 07:17:09 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -355,6 +355,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-29/VietnamDaily_Podcast_Final.mp3" length="12426597" type="audio/mpeg"/>
       <itunes:duration>08:37</itunes:duration>
       <pubDate>Mon, 29 Jun 2026 07:19:11 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-06-30</title>
+      <description><![CDATA[本集「越南晨間快訊」為您深入解析越南政治局最新頒布的第10號決議，該決議旨在重構外資吸引策略，推動越南從製造基地轉型為全球價值鏈中的高價值環節，同時聚焦越南疏通信貸資金流動的多項新政策。活動方面，胡志明市將舉辦為期一個月的全市煙火節，慶祝更名50週年，同時也有「胡志明市50年的成長」攝影展，帶您回顧城市發展歷程。更多精彩內容，請立即收聽！]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-30/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-30/VietnamDaily_Podcast_Final.mp3" length="14526842" type="audio/mpeg"/>
+      <itunes:duration>10:05</itunes:duration>
+      <pubDate>Tue, 30 Jun 2026 07:17:09 +0700</pubDate>
     </item>
   </channel>
 </rss>
