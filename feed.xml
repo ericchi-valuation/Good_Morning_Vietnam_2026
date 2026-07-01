@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 30 Jun 2026 00:17:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 00:18:00 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Tue, 30 Jun 2026 07:17:09 +0700</pubDate>
+    <pubDate>Wed, 01 Jul 2026 07:17:57 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -363,6 +363,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-06-30/VietnamDaily_Podcast_Final.mp3" length="14526842" type="audio/mpeg"/>
       <itunes:duration>10:05</itunes:duration>
       <pubDate>Tue, 30 Jun 2026 07:17:09 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-07-01</title>
+      <description><![CDATA[今天的「越南晨間快訊」為您帶來從7月1日起生效的十項稅務新規範，以及越南汽油價格調整和稅務減免政策的延長。同時，我們也深入探討了外資企業與國內企業之間連結的挑戰。活動方面，胡志明市將舉辦聚焦電動車的Automechanika展覽，而河內則可觀察Z世代對韓國電競選手的熱情。歡迎收聽，掌握越南最新脈動！]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-01/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-01/VietnamDaily_Podcast_Final.mp3" length="15048455" type="audio/mpeg"/>
+      <itunes:duration>10:26</itunes:duration>
+      <pubDate>Wed, 01 Jul 2026 07:17:57 +0700</pubDate>
     </item>
   </channel>
 </rss>
