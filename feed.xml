@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 01 Jul 2026 00:18:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 00:19:55 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Wed, 01 Jul 2026 07:17:57 +0700</pubDate>
+    <pubDate>Thu, 02 Jul 2026 07:19:52 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -371,6 +371,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-01/VietnamDaily_Podcast_Final.mp3" length="15048455" type="audio/mpeg"/>
       <itunes:duration>10:26</itunes:duration>
       <pubDate>Wed, 01 Jul 2026 07:17:57 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-07-02</title>
+      <description><![CDATA[今天的「越南晨間快訊」為您帶來多項重要報導，包括台灣投資者對越南綠色住宅市場的濃厚興趣，越南政府加強職場安全責任，以及高科技製造業如何成為越南經濟增長的新引擎。活動方面，胡志明市將舉辦一場慶祝更名50週年的3D光雕秀，同時也能感受這座城市的持續轉型。歡迎收聽本集節目，獲取您在越南所需的最新資訊。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-02/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-02/VietnamDaily_Podcast_Final.mp3" length="12191495" type="audio/mpeg"/>
+      <itunes:duration>08:27</itunes:duration>
+      <pubDate>Thu, 02 Jul 2026 07:19:52 +0700</pubDate>
     </item>
   </channel>
 </rss>
