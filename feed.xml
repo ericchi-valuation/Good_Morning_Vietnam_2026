@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 05 Jul 2026 00:15:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 00:18:02 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Sun, 05 Jul 2026 07:15:39 +0700</pubDate>
+    <pubDate>Mon, 06 Jul 2026 07:17:59 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -403,6 +403,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-05/VietnamDaily_Podcast_Final.mp3" length="16344964" type="audio/mpeg"/>
       <itunes:duration>11:21</itunes:duration>
       <pubDate>Sun, 05 Jul 2026 07:15:39 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-07-06</title>
+      <description><![CDATA[今天的「越南晨間快訊」聚焦越南上半年創紀錄的外國直接投資表現，實際到位資金創五年新高，新加坡勝科工業與裕廊集團更積極探索在峴港擴大投資。此外，越南銀行將從7月1日起定期向稅務機關提供客戶帳戶資訊，提升金融透明度，工業地產市場也因FDI帶動而蓬勃發展。活動方面，胡志明市將舉辦2026年越南酒店創新峰會，河內的GAM Esports戰隊將代表越南參加2026年電競世界盃。歡迎收聽本集節目，掌握越南最新脈動！]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-06/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-06/VietnamDaily_Podcast_Final.mp3" length="15659093" type="audio/mpeg"/>
+      <itunes:duration>10:52</itunes:duration>
+      <pubDate>Mon, 06 Jul 2026 07:17:59 +0700</pubDate>
     </item>
   </channel>
 </rss>
