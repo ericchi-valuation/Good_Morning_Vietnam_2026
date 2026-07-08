@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 07 Jul 2026 00:30:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 00:08:18 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Tue, 07 Jul 2026 07:30:02 +0700</pubDate>
+    <pubDate>Wed, 08 Jul 2026 07:08:12 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -419,6 +419,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-07/VietnamDaily_Podcast_Final.mp3" length="15210205" type="audio/mpeg"/>
       <itunes:duration>10:33</itunes:duration>
       <pubDate>Tue, 07 Jul 2026 07:30:02 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-07-08</title>
+      <description><![CDATA[今天的「越南晨間快訊」深入報導了EFTA與越南自由貿易協定的達成，這將大幅降低貿易壁壘並吸引更多投資。我們也分析了越南國家銀行如何透過支持性貨幣政策，為企業提供更多發展空間，以應對實現兩位數增長的挑戰。此外，印度與中國零售巨頭正積極從越南採購產品，顯示越南在全球供應鏈中的重要性日益提升。城市活動方面，胡志明市舉辦了紀念法國巴士底日的文化交流活動，而河內則迎來了第五百萬名國際訪客，展現其旅遊魅力。請鎖定本節目，獲取更多越南的商業脈動與生活資訊。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-08/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-08/VietnamDaily_Podcast_Final.mp3" length="16437751" type="audio/mpeg"/>
+      <itunes:duration>11:24</itunes:duration>
+      <pubDate>Wed, 08 Jul 2026 07:08:12 +0700</pubDate>
     </item>
   </channel>
 </rss>
