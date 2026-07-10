@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 09 Jul 2026 00:22:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 00:16:30 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Thu, 09 Jul 2026 07:22:12 +0700</pubDate>
+    <pubDate>Fri, 10 Jul 2026 07:16:26 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -435,6 +435,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-09/VietnamDaily_Podcast_Final.mp3" length="13503051" type="audio/mpeg"/>
       <itunes:duration>09:22</itunes:duration>
       <pubDate>Thu, 09 Jul 2026 07:22:12 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-07-10</title>
+      <description><![CDATA[今天的「越南晨間快訊」為您帶來韓國DN Solutions評估投資越南高科技產業的最新進展，以及彭博社預測越南2026年GDP將達7.3%、CPI為4.8%的樂觀經濟展望。此外，我們也關注到物流成本上升對越南企業競爭力帶來的挑戰。在活動方面，富時羅素將從九月起分階段將越南納入全球指數，預計將吸引巨額國際資金。社群熱議則包括外國遊客刺青引發的文化觀察，以及一位酷似足球明星哈蘭德的人物在當地引發熱潮。歡迎收聽本集節目，掌握越南最新動態。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-10/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-10/VietnamDaily_Podcast_Final.mp3" length="14353180" type="audio/mpeg"/>
+      <itunes:duration>09:58</itunes:duration>
+      <pubDate>Fri, 10 Jul 2026 07:16:26 +0700</pubDate>
     </item>
   </channel>
 </rss>
