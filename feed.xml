@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 10 Jul 2026 00:16:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 00:09:33 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Fri, 10 Jul 2026 07:16:26 +0700</pubDate>
+    <pubDate>Sat, 11 Jul 2026 07:09:30 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -443,6 +443,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-10/VietnamDaily_Podcast_Final.mp3" length="14353180" type="audio/mpeg"/>
       <itunes:duration>09:58</itunes:duration>
       <pubDate>Fri, 10 Jul 2026 07:16:26 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-07-11</title>
+      <description><![CDATA[今天的「越南晨間快訊」聚焦於越南經濟的策略轉型，探討如何利用外國直接投資提升國內產能，以及百事可樂三得利在西寧省的3億美元新廠啟用。此外，節目深入分析了宏觀經濟穩定、外資和公共投資如何共同支撐下半年經濟增長，以及UOB銀行對越南穩定貨幣政策和GDP增長的樂觀預測。活動方面，胡志明市正推動將富美3發展為首個生態工業園區，並致力於工業園區的淨零碳排放目標，而河內則開始興建亞太反網路犯罪中心總部。歡迎收聽本集節目，掌握越南最新商情與生活脈動。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-11/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-11/VietnamDaily_Podcast_Final.mp3" length="12335691" type="audio/mpeg"/>
+      <itunes:duration>08:33</itunes:duration>
+      <pubDate>Sat, 11 Jul 2026 07:09:30 +0700</pubDate>
     </item>
   </channel>
 </rss>
