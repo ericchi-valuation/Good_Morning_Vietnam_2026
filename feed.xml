@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 12 Jul 2026 00:10:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 00:05:18 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Sun, 12 Jul 2026 07:10:21 +0700</pubDate>
+    <pubDate>Mon, 13 Jul 2026 07:05:15 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -459,6 +459,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-12/VietnamDaily_Podcast_Final.mp3" length="14302398" type="audio/mpeg"/>
       <itunes:duration>09:55</itunes:duration>
       <pubDate>Sun, 12 Jul 2026 07:10:21 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-07-13</title>
+      <description><![CDATA[本期《越南晨間快訊》為您帶來重要資訊：首先深入解析越南針對外籍人士的臨時居留新規定，助您掌握最新政策動態；接著報導百事可樂在越南的最新投資承諾，展現跨國企業對市場的信心；同時關注Vingroup在胡志明市推動的重大海上橋樑計畫，預計將大幅改善城市連結。本週活動包括胡志明市的「數位投資促進基礎設施試點計畫」、峴港國際煙火節葡萄牙隊奪冠、河內透過「體驗式旅遊」復興傳統工藝村，以及「從美食認識越南」的異國文化交流活動。歡迎收聽，掌握越南脈動！]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-13/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-13/VietnamDaily_Podcast_Final.mp3" length="15358163" type="audio/mpeg"/>
+      <itunes:duration>10:39</itunes:duration>
+      <pubDate>Mon, 13 Jul 2026 07:05:15 +0700</pubDate>
     </item>
   </channel>
 </rss>
