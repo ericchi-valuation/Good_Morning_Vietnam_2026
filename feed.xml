@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 14 Jul 2026 00:06:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 00:01:50 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Tue, 14 Jul 2026 07:06:25 +0700</pubDate>
+    <pubDate>Wed, 15 Jul 2026 07:01:47 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -475,6 +475,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-14/VietnamDaily_Podcast_Final.mp3" length="15859714" type="audio/mpeg"/>
       <itunes:duration>11:00</itunes:duration>
       <pubDate>Tue, 14 Jul 2026 07:06:25 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-07-15</title>
+      <description><![CDATA[今天的『越南晨間快訊』深入分析了越南盾匯率在貿易逆差下仍保持穩定的原因，並探討了胡志明市如何策略性地轉向吸引高科技新一代外國直接投資。同時，我們也關注了近期亞洲至美國海運費率再度飆升對越南出口企業的影響。在今日活動方面，國會常務副主席敦促河內市務實規劃經濟增長，此外台灣BL劇男神與越南『夜鶯王子』的跨國音樂合作也成為文化亮點。敬請收聽本集節目，掌握更多越南當地的重要資訊！]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-15/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-15/VietnamDaily_Podcast_Final.mp3" length="14904886" type="audio/mpeg"/>
+      <itunes:duration>10:21</itunes:duration>
+      <pubDate>Wed, 15 Jul 2026 07:01:47 +0700</pubDate>
     </item>
   </channel>
 </rss>
