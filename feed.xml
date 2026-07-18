@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 17 Jul 2026 00:09:34 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 00:02:06 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Fri, 17 Jul 2026 07:09:31 +0700</pubDate>
+    <pubDate>Sat, 18 Jul 2026 07:02:03 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -499,6 +499,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-17/VietnamDaily_Podcast_Final.mp3" length="14612106" type="audio/mpeg"/>
       <itunes:duration>10:08</itunes:duration>
       <pubDate>Fri, 17 Jul 2026 07:09:31 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-07-18</title>
+      <description><![CDATA[今天的「越南晨間快訊」探討了越南從吸引外國直接投資轉向選擇高質量投資的策略轉變，以及存款保險上限大幅提升至2.25億越南盾，為儲戶提供更多保障。節目中也關注到越南上半年仍是東協經濟增長最快的國家，並透過基礎設施發展加強區域連結。今日胡志明市有紀念古巴蒙卡達兵營襲擊73週年的聚會，河內則有紀念戰時派往南方人員的展覽及奠邊省特產推廣活動。歡迎收聽本集節目，掌握越南最新脈動。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-18/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-18/VietnamDaily_Podcast_Final.mp3" length="15591384" type="audio/mpeg"/>
+      <itunes:duration>10:49</itunes:duration>
+      <pubDate>Sat, 18 Jul 2026 07:02:03 +0700</pubDate>
     </item>
   </channel>
 </rss>
