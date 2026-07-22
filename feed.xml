@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 21 Jul 2026 00:07:55 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 00:06:03 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Tue, 21 Jul 2026 07:07:50 +0700</pubDate>
+    <pubDate>Wed, 22 Jul 2026 07:06:00 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -531,6 +531,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-21/VietnamDaily_Podcast_Final.mp3" length="17035851" type="audio/mpeg"/>
       <itunes:duration>11:49</itunes:duration>
       <pubDate>Tue, 21 Jul 2026 07:07:50 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-07-22</title>
+      <description><![CDATA[本集『越南晨間快訊』深入剖析2026年上半年越南經濟表現，包括GDP、FDI與製造業的強勁增長，以及渣打銀行上調越南GDP預測至9.5%的樂觀展望。同時，我們也關注越南高科技園區投資規範的最新修訂，及其對外資的影響。本週活動包括越南規劃成為區域文化創意中心、河內索菲特傳奇大都會酒店推出中秋月餅，以及駐胡志明市辦事處僑務組的僑社活動。歡迎訂閱並分享我們的節目，我是語昕，我們明天見！]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-22/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-22/VietnamDaily_Podcast_Final.mp3" length="13765111" type="audio/mpeg"/>
+      <itunes:duration>09:33</itunes:duration>
+      <pubDate>Wed, 22 Jul 2026 07:06:00 +0700</pubDate>
     </item>
   </channel>
 </rss>
