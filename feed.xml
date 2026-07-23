@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 22 Jul 2026 00:06:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 00:10:47 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Wed, 22 Jul 2026 07:06:00 +0700</pubDate>
+    <pubDate>Thu, 23 Jul 2026 07:10:44 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -539,6 +539,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-22/VietnamDaily_Podcast_Final.mp3" length="13765111" type="audio/mpeg"/>
       <itunes:duration>09:33</itunes:duration>
       <pubDate>Wed, 22 Jul 2026 07:06:00 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-07-23</title>
+      <description><![CDATA[本集「越南晨間快訊」聚焦越南上半年製造業FDI創新高，美國進口附加費政策的結束預計將進一步提升越南的吸引力。節目深入探討越南FDI策略從單純招商轉向建立戰略性產業聚落，以及為實現雙位數經濟增長所需的貨幣政策調整。今日活動包括一部越南武術奇幻電影獲選多倫多影展、胡志明市推動文化產業發展合作，以及HSC會議探討數位資產與機構金融融合。歡迎收聽，了解更多越南在地商情與生活動態。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-23/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-23/VietnamDaily_Podcast_Final.mp3" length="11306257" type="audio/mpeg"/>
+      <itunes:duration>07:51</itunes:duration>
+      <pubDate>Thu, 23 Jul 2026 07:10:44 +0700</pubDate>
     </item>
   </channel>
 </rss>
