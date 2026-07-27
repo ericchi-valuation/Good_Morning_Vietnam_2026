@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 26 Jul 2026 00:08:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 00:10:21 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Sun, 26 Jul 2026 07:08:55 +0700</pubDate>
+    <pubDate>Mon, 27 Jul 2026 07:10:18 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -571,6 +571,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-26/VietnamDaily_Podcast_Final.mp3" length="15652197" type="audio/mpeg"/>
       <itunes:duration>10:52</itunes:duration>
       <pubDate>Sun, 26 Jul 2026 07:08:55 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-07-27</title>
+      <description><![CDATA[今天的《越南晨間快訊》為您帶來一系列重要消息：中國索力士公司將在越南北部追加9700萬美元投資，顯示越南持續吸引高品質外資，同時越南也正積極轉型，目標在2045年成為高收入發達國家，並推動本地製造業升級。此外，越南工商部正討論擴大直接電力採購協議機制，而鑽石市場則面臨信任危機。今日雙城活動包括胡志明市利用歷史價值推動崑島發展，以及表彰英雄的修復肖像展。社群熱議話題則有越南義大利麵的獨特風味、胡志明市植髮推薦，以及越南討論16歲以下兒童社群媒體發文的規範。請鎖定收聽，掌握越南最新脈動。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-27/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-27/VietnamDaily_Podcast_Final.mp3" length="14863508" type="audio/mpeg"/>
+      <itunes:duration>10:19</itunes:duration>
+      <pubDate>Mon, 27 Jul 2026 07:10:18 +0700</pubDate>
     </item>
   </channel>
 </rss>
