@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 27 Jul 2026 00:10:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 00:10:41 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Mon, 27 Jul 2026 07:10:18 +0700</pubDate>
+    <pubDate>Tue, 28 Jul 2026 07:10:38 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -579,6 +579,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-27/VietnamDaily_Podcast_Final.mp3" length="14863508" type="audio/mpeg"/>
       <itunes:duration>10:19</itunes:duration>
       <pubDate>Mon, 27 Jul 2026 07:10:18 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-07-28</title>
+      <description><![CDATA[今天的「越南晨間快訊」報導了兩大頭條：越南政府將透過修改《土地法》來疏通土地資源，以促進經濟發展和解決房地產停滯問題；同時，越南出口企業正積極應對美國依據《301條款》徵收的12.5%新關稅。其他重要新聞包括土地估價改革以解鎖停滯房地產項目，以及馬來西亞開發商SkyWorld在胡志明市開設首家海外銷售畫廊。今日活動包括胡志明市紀念陣亡將士和傷兵烈士節的致敬與福利活動，以及河內居民在衛生站獲得康復服務。社群熱議則聚焦於機場計程車詐騙和網路內容監管。歡迎持續收聽，掌握越南最新動態。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-28/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-28/VietnamDaily_Podcast_Final.mp3" length="15283557" type="audio/mpeg"/>
+      <itunes:duration>10:36</itunes:duration>
+      <pubDate>Tue, 28 Jul 2026 07:10:38 +0700</pubDate>
     </item>
   </channel>
 </rss>
