@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 29 Jul 2026 00:06:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 00:09:17 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Wed, 29 Jul 2026 07:06:45 +0700</pubDate>
+    <pubDate>Thu, 30 Jul 2026 07:09:14 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -595,6 +595,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-29/VietnamDaily_Podcast_Final.mp3" length="13357601" type="audio/mpeg"/>
       <itunes:duration>09:16</itunes:duration>
       <pubDate>Wed, 29 Jul 2026 07:06:45 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-07-30</title>
+      <description><![CDATA[今天的「越南晨間快訊」探討了東南亞製造業的蓬勃發展，以及全球投資者對越南的濃厚興趣，特別是韓國對越南科技創新高達950億美元的巨額投資。我們也深入了解越南如何更深層次地融入跨國供應鏈，提升其在全球價值鏈中的地位。活動方面，胡志明市將舉辦HSC會議聚焦數位資產與機構金融，以及探討科技人才驅動數位發展的論壇。河內旅遊收入在前七個月已突破86兆越南盾。歡迎鎖定收聽，掌握越南最新脈動。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-30/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-30/VietnamDaily_Podcast_Final.mp3" length="14778244" type="audio/mpeg"/>
+      <itunes:duration>10:15</itunes:duration>
+      <pubDate>Thu, 30 Jul 2026 07:09:14 +0700</pubDate>
     </item>
   </channel>
 </rss>
