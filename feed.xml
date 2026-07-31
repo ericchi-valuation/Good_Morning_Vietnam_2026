@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 30 Jul 2026 00:09:17 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 00:12:40 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Thu, 30 Jul 2026 07:09:14 +0700</pubDate>
+    <pubDate>Fri, 31 Jul 2026 07:12:36 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -603,6 +603,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-30/VietnamDaily_Podcast_Final.mp3" length="14778244" type="audio/mpeg"/>
       <itunes:duration>10:15</itunes:duration>
       <pubDate>Thu, 30 Jul 2026 07:09:14 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-07-31</title>
+      <description><![CDATA[今天的「越南晨間快訊」深入探討了美國對越南可能實施的301條款關稅，以及南韓對越南高科技製造業高達950億美元的巨額投資，同時也關注了越南在高科技製造業和農業食品領域的最新發展。活動方面，胡志明市正舉行「2026年越南醫藥醫療設備展」，河內前七個月接待遊客超過2100萬，印度也正式開放越南新鮮榴槤市場。歡迎收聽本集節目，獲取您在越南的最新商情資訊。]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-31/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-31/VietnamDaily_Podcast_Final.mp3" length="11274284" type="audio/mpeg"/>
+      <itunes:duration>07:49</itunes:duration>
+      <pubDate>Fri, 31 Jul 2026 07:12:36 +0700</pubDate>
     </item>
   </channel>
 </rss>
