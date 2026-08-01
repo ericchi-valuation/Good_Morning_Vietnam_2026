@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 31 Jul 2026 00:12:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 00:13:26 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Fri, 31 Jul 2026 07:12:36 +0700</pubDate>
+    <pubDate>Sat, 01 Aug 2026 07:13:22 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -611,6 +611,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-07-31/VietnamDaily_Podcast_Final.mp3" length="11274284" type="audio/mpeg"/>
       <itunes:duration>07:49</itunes:duration>
       <pubDate>Fri, 31 Jul 2026 07:12:36 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-08-01</title>
+      <description><![CDATA[本集『越南晨間快訊』深入報導了美國對越南實施301條款關稅對出口商的潛在影響，以及越南如何從『世界工廠』轉型為全球戰略製造中心。節目也探討了越南經濟在下半年為實現10%GDP成長目標所面臨的挑戰，並提供了外國投資利潤匯回的最新指南。在地活動方面，胡志明市正徵求國家能源工業中心項目意見，河內則推出旅遊主題藝術項目。歡迎收聽節目，了解更多越南最新商業動態與生活資訊！]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-08-01/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-08-01/VietnamDaily_Podcast_Final.mp3" length="18521069" type="audio/mpeg"/>
+      <itunes:duration>12:51</itunes:duration>
+      <pubDate>Sat, 01 Aug 2026 07:13:22 +0700</pubDate>
     </item>
   </channel>
 </rss>
