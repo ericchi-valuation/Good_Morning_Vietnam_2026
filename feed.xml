@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 04 Aug 2026 00:19:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 00:14:37 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Tue, 04 Aug 2026 07:19:14 +0700</pubDate>
+    <pubDate>Wed, 05 Aug 2026 07:14:34 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -643,6 +643,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-08-04/VietnamDaily_Podcast_Final.mp3" length="16844008" type="audio/mpeg"/>
       <itunes:duration>11:41</itunes:duration>
       <pubDate>Tue, 04 Aug 2026 07:19:14 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-08-05</title>
+      <description><![CDATA[今天的『越南晨間快訊』深入探討了越南前七個月外國直接投資激增58%至380億美元的亮眼表現，以及政府為提振信貸供給、維持匯率穩定和控制通膨所採取的積極措施。我們也關注了胡志明市如何為迎接下一代高科技外資進行準備，以及政府對中小企業提供的全面支持。在活動方面，有夏威夷大學越南MBA課程25週年慶、老街省的新米節，以及河內的LCK電競路演和ABBank多感官版權展。請收聽本集節目，掌握越南最新的商業與社會脈動！]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-08-05/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-08-05/VietnamDaily_Podcast_Final.mp3" length="13437849" type="audio/mpeg"/>
+      <itunes:duration>09:19</itunes:duration>
+      <pubDate>Wed, 05 Aug 2026 07:14:34 +0700</pubDate>
     </item>
   </channel>
 </rss>
