@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 05 Aug 2026 00:14:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 00:09:26 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Wed, 05 Aug 2026 07:14:34 +0700</pubDate>
+    <pubDate>Thu, 06 Aug 2026 07:09:23 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -651,6 +651,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-08-05/VietnamDaily_Podcast_Final.mp3" length="13437849" type="audio/mpeg"/>
       <itunes:duration>09:19</itunes:duration>
       <pubDate>Wed, 05 Aug 2026 07:14:34 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-08-06</title>
+      <description><![CDATA[今天的『越南晨間快訊』深度報導了越南前七個月FDI的質與量雙重提升，以及西貢商業銀行發行高利率債券的消息。我們也關注了吉寶企業在越南的資產剝離，以及越南政府對土地定價政策的重大改革。活動方面，胡志明市舉辦了印度比哈爾邦企業家交流活動，河內則積極打造FDI投資生態系統。社群熱議話題包括日本漫畫文化在越南的影響力，以及越南政府對網路行為規範的討論。歡迎收聽，掌握越南最新脈動！]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-08-06/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-08-06/VietnamDaily_Podcast_Final.mp3" length="16626460" type="audio/mpeg"/>
+      <itunes:duration>11:32</itunes:duration>
+      <pubDate>Thu, 06 Aug 2026 07:09:23 +0700</pubDate>
     </item>
   </channel>
 </rss>
