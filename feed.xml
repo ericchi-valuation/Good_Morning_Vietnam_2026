@@ -8,10 +8,10 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 07 Aug 2026 01:48:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 23:42:46 +0000</lastBuildDate>
     <itunes:author>Eric Chi</itunes:author>
     <managingEditor>eric.chi1988@gmail.com (Eric Chi)</managingEditor>
-    <pubDate>Fri, 07 Aug 2026 08:48:35 +0700</pubDate>
+    <pubDate>Sat, 08 Aug 2026 06:42:43 +0700</pubDate>
     <itunes:category text="News">
       <itunes:category text="Business News"/>
     </itunes:category>
@@ -667,6 +667,14 @@
       <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-08-07/VietnamDaily_Podcast_Final.mp3" length="16673480" type="audio/mpeg"/>
       <itunes:duration>11:34</itunes:duration>
       <pubDate>Fri, 07 Aug 2026 08:48:35 +0700</pubDate>
+    </item>
+    <item>
+      <title>越南晨間快訊 Good Morning Vietnam - 2026-08-08</title>
+      <description><![CDATA[今天的《越南晨間快訊》為您深入解析越南政府在外國直接投資（FDI）策略上的重大轉變，從追求數量轉向高質量與高附加值產業。我們也關注了政府為中小企業提供的83億美元優惠信貸計畫，以及商品原產地證明（C/O）核發延遲對企業的影響。在地活動方面，胡志明市慶祝東協成立59週年，HUTECH大學拓展馬來西亞合作網絡，2026年ITE HCMC旅遊展覽會將創下新紀錄，以及越南家扶串聯台越青年守護兒童健康。歡迎收聽，掌握越南最新脈動！]]></description>
+      <guid isPermaLink="false">https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-08-08/VietnamDaily_Podcast_Final.mp3</guid>
+      <enclosure url="https://github.com/ericchi-valuation/Good_Morning_Vietnam_2026/releases/download/ep-2026-08-08/VietnamDaily_Podcast_Final.mp3" length="15575711" type="audio/mpeg"/>
+      <itunes:duration>10:48</itunes:duration>
+      <pubDate>Sat, 08 Aug 2026 06:42:43 +0700</pubDate>
     </item>
   </channel>
 </rss>
